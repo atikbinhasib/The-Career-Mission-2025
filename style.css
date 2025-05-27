@@ -196,12 +196,16 @@ header{
     border: 1px solid #0D132120;
     border-radius: 16px;
     padding: 32px;
-
-}
-.video img{
-    height: 100%;
     width: 100%;
+    height: 600px;
+    
+}
+.video iframe{
     border-radius: 16px;
+    width:100%;
+    height:100%;
+    
+    
 }
 
 /* My Current Target  */
@@ -290,6 +294,11 @@ footer p{
     font-weight: 500;
     }
 
+    .video{
+    padding: 15px;
+    height: 200px;
+    }
+
     
 }
 
@@ -321,7 +330,9 @@ footer p{
 
     .video{
     padding: 15px;
+    height: 300px;
     }
+    
 
     .all-cards{
     flex-direction: column;
@@ -331,6 +342,10 @@ footer p{
 
     .card{
     width: 100%;
+    text-align: center;
+    }
+    .card img{
+        margin: 0 auto;
     }
 
     footer{
